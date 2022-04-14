@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -49,17 +51,54 @@ a:visited {
 .form-section {
     display: flex;
     flex-direction: row;
-    flex-flow: column nowrap;
-    width: 100%;
+    flex-flow: column;
     justify-content: center;
+    width: 100%;
+}
+
+.header {
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    text-align: center;
 }
 
 .form-header {
-    background-color: aqua;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 12rem;
+    background-color: bisque;
 }
 
-.form-row {
+.form-text {
+    color: gray;
+    line-height: 25px;
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-left: 4rem;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: .80rem;
+    opacity: .75;
+}
+
+.checkbox {
     display: flex;
     justify-content: center;
-    background-color: bisque;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 60%;
+    background-color: aqua;
+    margin: auto;
+}
+
+ .joinBtn {
+    
 }
