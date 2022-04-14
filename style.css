@@ -4,3 +4,62 @@
     margin: 0px;
 }
 
+/*Two column formatting */
+.wrapper {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+/*Image section*/
+.img-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+ width: 100%;
+ height: 670px;
+}
+
+.img-credit {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: rgb(255, 179, 2);
+}
+
+/*credit text styling at bottom of image */
+a:link {
+    color: rgb(255, 179, 2);
+}
+
+a:visited {
+    color: rgb(255, 179, 2);
+}
+
+/* Form Section */
+.form-section {
+}
+
+/* Form section columns */
+.form-section {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column nowrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.form-header {
+    background-color: aqua;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
