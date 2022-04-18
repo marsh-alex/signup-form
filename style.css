@@ -47,27 +47,25 @@ a:visited {
 /* Form section columns */
 .form-section {
     display: flex;
-    flex-direction: row;
     flex-flow: column;
     justify-content: center;
 }
 
 .header {
-    padding-bottom: 2rem;
-    padding-left: 4rem;
     text-align: center;
+    width: 60%;
+    margin: 2rem auto;
+    margin-top: 5rem;
 }
 
 .check {
     width: 15%;
-    margin-top: 12rem;
+    margin-bottom: 1rem;
 }
 
 .form-header {
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
-    padding-bottom: 1rem;
-    margin-top: 2rem;
 }
 
 .form-text {
@@ -80,11 +78,11 @@ a:visited {
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
-    justify-content: center;
     font-family: 'Roboto', sans-serif;
-    width: 40%;
-    background-color: aquamarine;
-    margin: auto;
+    min-width: 40%;
+    max-width: 40%;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .input {
@@ -97,15 +95,42 @@ a:visited {
 .checkbox {
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    width: 50%;
-    background-color: aqua;
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-    font-size: .8rem;
+    font-size: .9rem;
+    gap: 1rem;
+    opacity: .75;
+    background-color: antiquewhite;
 }
 
  .joinBtn {
-    
+    margin: 0 auto;
+}
+
+.join-button {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 15px;
+    width: 17rem;
+    height: 3rem;
+    font-weight: bold;
+} 
+
+.join-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.log-in {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
 }
