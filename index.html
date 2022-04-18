@@ -11,6 +11,7 @@
 
 <body>
     <div class="wrapper">
+        
         <div class="img-section column">
             <img class="img" src="nike_swoosh.jpg">
             <p class="img-credit">Photo by <a
@@ -20,7 +21,6 @@
         </div>
 
         <div class="form-section column">
-           
             <div class="header">
                 <img class="check" src="nikeCheck.png">
                 <h2 class="form-header">BECOME A NIKE MEMBER</h2>
@@ -29,46 +29,49 @@
                         products, inspiration and community</p>
             </div>
 
-                <form class="form" method="post"> 
-                        <div class="input">
-                            <label for="firstName">First Name</label> 
-                            <input type="text" id="firstName" required>
-                        </div>
-                        <div class="input">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" id="lastName" required>
-                        </div>
-                        <div class="input">
-                            <label for="email">Email</label>
-                            <input type="text" id="email" required>
-                        </div>   
-                        <div class="input">
-                            <label for="phoneNumber">Phone Number</label>
-                            <input type="number" id="phoneNumber" minlength="10" 
-                                    maxlength="10" required> 
-                        </div>
-                        <div class="input">
-                            <label for="password">Password</label>
-                            <input type="number" id="password" required>
-                        </div>
-                        <div class="input">
-                            <label for="confirmPassword">Confirm Password</label>
-                            <input type="" id="confirmPassword" required>
-                        </div>
-                </form>
+            <form class="form" action="#" method="get"> 
+                <div class="input">
+                    <label for="firstName">First Name</label> 
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="input">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>   
+                <div class="input">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" minlength="10" 
+                            maxlength="10" required> 
+                </div>
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+            
                 <div class="checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" name="checkbox">
                     <label>Sign up for emails to get updats from Nike on
                                 products, offers, and your Member benefits
                     </label>
                 </div>
                 <div class="joinBtn">
-                    <button class="join-button" type="button">Join Us</button>
-                </div> 
-                  
+                    <input class="join-button" type="submit">
+                </div>
+                <div class="log-in">
+                    <p>Already have an account?
+                        <a href="#">Log in</a>
+                    </p>
+                </div>
+            </form>    
         </div>
-
-
     </div>
 </body>
 </html>
