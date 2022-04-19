@@ -74,6 +74,22 @@ a:visited {
     font-family: 'Roboto', sans-serif;
 }
 
+.errorMsg {
+    margin: 1rem auto;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.valid {
+    border: 2px solid green;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+
+
 .form {
     display: flex;
     flex-flow: row wrap;
