@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
     <title>sign-up form"></form></title>
 </head>
 
-
 <body>
     <div class="wrapper">
-        
         <div class="img-section column">
             <img class="img" src="nike_swoosh.jpg">
             <p class="img-credit">Photo by <a
@@ -28,8 +27,8 @@
                         and get first access to the very best of Nike 
                         products, inspiration and community</p>
             </div>
-
-            <form class="form" action="#" method="get"> 
+            <div id="errorMsg" class="errorMsg"></div>
+            <form id="form" class="form" action="#" method="get"> 
                 <div class="input">
                     <label for="firstName">First Name</label> 
                     <input type="text" id="firstName" name="firstName" required>
@@ -63,7 +62,7 @@
                     </label>
                 </div>
                 <div class="joinBtn">
-                    <input class="join-button" type="submit">
+                    <button id="joinButton" class="join-button" type="submit">Join Us</button>
                 </div>
                 <div class="log-in">
                     <p>Already have an account?
